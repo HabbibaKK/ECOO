@@ -230,11 +230,11 @@ public class CharacterController2D : MonoBehaviour
         Vector2 targetPosition = tailAnchor.position;
         targetPosition += controllerRigidbody.velocity * Time.fixedDeltaTime;
 
-        tailRigidbody.MovePosition(targetPosition);
-        if (isFlipped)
-            tailRigidbody.SetRotation(tailAnchor.rotation * flippedRotation);
-        else
-            tailRigidbody.SetRotation(tailAnchor.rotation);
+        //tailRigidbody.MovePosition(targetPosition);
+        //if (isFlipped)
+        //    tailRigidbody.SetRotation(tailAnchor.rotation * flippedRotation);
+        //else
+        //    tailRigidbody.SetRotation(tailAnchor.rotation);
     }
 
     private void UpdateGravityScale()

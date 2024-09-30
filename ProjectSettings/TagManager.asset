@@ -6,6 +6,9 @@ TagManager:
   tags:
   - coin
   - score
+  - Can
+  - Glass
+  - Metal
   layers:
   - Default
   - TransparentFX
